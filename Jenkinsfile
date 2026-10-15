@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Store environment variables used throughout the pipeline
-        DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'        // Jenkins credential ID for authenticating with Docker Hub
+        DOCKER_CREDENTIALS_ID = 'meltoneb-dockerhub'        // Jenkins credential ID for authenticating with Docker Hub
         GITHUB_URL = 'https://github.com/meltoneb-glitch/225-lab3-8'  // GitHub repository containing Kubernetes YAML files
         KUBECONFIG = credentials('meltoneb-225')             // Jenkins stored credential for accessing your Kubernetes cluster
     }
